@@ -1,0 +1,40 @@
+<RelativeLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/simon"
+        android:layout_margin="60dp"
+        android:id="@+id/textview"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fin del juego"
+        android:textSize="40sp"
+        android:layout_marginLeft="60dp"
+        android:id="@+id/text5"
+        android:layout_below="@+id/textview"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/texto1"
+        android:text="0"
+        android:textSize="20sp"
+        android:layout_marginLeft="50dp"
+        android:layout_below="@+id/text5"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="volver"
+        android:text="Ir a inicio"
+        android:layout_below="@+id/texto1"/>
+
+
+
+
+
+
+</RelativeLayout>

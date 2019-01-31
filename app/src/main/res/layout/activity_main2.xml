@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="130dp"
+        android:layout_marginLeft="172dp"
+        android:text="0"
+        android:textSize="80sp"
+        android:id="@+id/texto"/>
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_below="@+id/texto"
+        android:layout_marginLeft="32dp"
+        android:id="@+id/botonrojo"
+        android:background="@drawable/botonrojo"
+        android:onClick="rojo"/>
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_below="@+id/texto"
+        android:layout_toRightOf="@+id/botonrojo"
+        android:id="@+id/botonverde"
+        android:background="@drawable/botonverde"
+
+        android:onClick="verde"/>
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_below="@+id/botonrojo"
+        android:layout_marginLeft="32dp"
+        android:id="@+id/botonazul"
+        android:background="@drawable/botonazul"
+        android:onClick="azul"/>
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_below="@+id/botonverde"
+        android:layout_toRightOf="@id/botonazul"
+        android:background="@drawable/botonamarillo"
+        android:id="@+id/botonamarillo"
+        android:onClick="amarillo"/>
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

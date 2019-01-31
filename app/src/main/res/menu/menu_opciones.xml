@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nuevoJuego"
+        android:title="Nuevo Juego">
+        <menu>
+             <item android:id="@+id/fa"
+                 android:title="Modo Facil"/>
+            <item android:id="@+id/nor"
+                android:title="Modo Normal"/>
+            <item android:id="@+id/dif"
+                android:title="Modo Dificil"/>
+            </menu>
+    </item>
+    <item
+        android:id="@+id/puntajes"
+        android:title="Mejores Puntajes"/>
+    <item
+        android:id="@+id/salida"
+        android:title="Salir Del Juego"/>
+
+
+
+
+</menu>
